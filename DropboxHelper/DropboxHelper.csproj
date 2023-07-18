@@ -11,10 +11,17 @@
     <None Remove="Controllers\" />
     <None Remove="DataAccess\" />
     <None Remove="Pages\" />
+    <None Remove="DataTypes\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="DataAccess\" />
     <Folder Include="Pages\" />
+    <Folder Include="DataTypes\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.9" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
   </ItemGroup>
 </Project>

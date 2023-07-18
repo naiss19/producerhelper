@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/BrandonHall_1/Projects/DropboxHelper/DropboxHelper/DropboxHelper.csproj": {}
+    "/Users/BrandonHall_1/Downloads/Development/DropboxTools/producerhelper/DropboxHelper/DropboxHelper.csproj": {}
   },
   "projects": {
-    "/Users/BrandonHall_1/Projects/DropboxHelper/DropboxHelper/DropboxHelper.csproj": {
+    "/Users/BrandonHall_1/Downloads/Development/DropboxTools/producerhelper/DropboxHelper/DropboxHelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/BrandonHall_1/Projects/DropboxHelper/DropboxHelper/DropboxHelper.csproj",
+        "projectUniqueName": "/Users/BrandonHall_1/Downloads/Development/DropboxTools/producerhelper/DropboxHelper/DropboxHelper.csproj",
         "projectName": "DropboxHelper",
-        "projectPath": "/Users/BrandonHall_1/Projects/DropboxHelper/DropboxHelper/DropboxHelper.csproj",
+        "projectPath": "/Users/BrandonHall_1/Downloads/Development/DropboxTools/producerhelper/DropboxHelper/DropboxHelper.csproj",
         "packagesPath": "/Users/BrandonHall_1/.nuget/packages/",
-        "outputPath": "/Users/BrandonHall_1/Projects/DropboxHelper/DropboxHelper/obj/",
+        "outputPath": "/Users/BrandonHall_1/Downloads/Development/DropboxTools/producerhelper/DropboxHelper/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/BrandonHall_1/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
